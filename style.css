@@ -1,0 +1,242 @@
+
+
+/* hjemme side*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x:hidden ;
+}
+
+.spin{
+    padding-right: 4%;
+}
+
+
+body{
+    background-color: #000000;
+    color: white;
+    /* background-image: linear-gradient(to bottom right,red, black, black, black, red); */
+    
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 3%;
+    background: black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    opacity: 90%;
+    
+}
+
+
+
+.logo{
+    font-size: 300%;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.navbar a{
+    font-size: 180%;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3 ease-in-out;
+    border-bottom: 3px solid transparent;
+    
+}
+
+
+
+.navbar a:hover{
+border-bottom: 3px solid rgb(255, 0, 0);
+}
+
+
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+span{
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 25px rgb(255, 0, 0);
+    
+    
+}
+
+.logo span{
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 25px rgb(255, 0, 0);
+}
+
+
+
+
+.knapp{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: rgb(255, 0, 0);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: white;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.knapp:hover{
+color: white;
+background-color: red;
+transform: scale(1.05);
+box-shadow: 0 0 25px rgb(255, 0, 0);
+}
+
+
+.sosiale-medier a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    background: transparent;
+    border: 0.2rem solid rgb(255, 0, 0);
+    font-size: 2.5rem;
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease-in-out;
+}
+
+.sosiale-medier a:hover{
+    color: white;
+    transform: scale(1.3)translateY(-5px);
+    box-shadow: 0 0 25px rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+
+
+.clothes{
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+
+.clothes :hover{
+    transform: scale(104%);
+     transition: 0.5s;
+    
+}
+
+.clothes2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clothes2 :hover{
+    transform: scale(104%);
+    transition: 0.5s;
+    
+}
+
+
+.background-clip{
+    margin-top: 38%;
+    position: absolute;
+    z-index: -1;
+    height: 120%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cloth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 180%;
+}
+
+.cloth :hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 180%;
+    box-shadow: 0 0 50px rgb(255, 0, 0);
+    
+}
+
+.cloth p{
+    margin-top: 5%;
+}
+
+
+
+
+
+/* animation */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
